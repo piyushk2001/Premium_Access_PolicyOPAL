@@ -1,90 +1,29 @@
 {
-  "users": {
-    "alice": {
-      "roles": ["admin"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-    "bob": {
-      "roles": ["employee", "billing"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-     "sunil": {
-      "roles": ["guest"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-    "eve": {
-      "roles": ["customer"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
+    "username": {
+        "arson": {
+            "password": "arson123",
+            "membership": true,
+            "purchase_history": true 
+        },
+        "becker": {
+            "password": "becker123",
+            "membership": true,
+            "purchase_history": false
+        },
+        "carmel": {
+            "password": "carmel123",
+            "membership": false,
+            "purchase_history": true
+        },
+        "carmelson": {
+            "password": "carmelson123",
+            "membership": false,
+            "purchase_history": true
+        },
+        "daniel": {
+            "password": "daniel123",
+            "membership": false,
+            "purchase_history": false
+        }
     }
-  },
-  "role_permissions": {
-    "customer": [
-      {
-        "action": "read",
-        "type": "dog"
-      },
-      {
-        "action": "read",
-        "type": "cat"
-      },
-      {
-        "action": "adopt",
-        "type": "dog"
-      },
-      {
-        "action": "adopt",
-        "type": "cat"
-      }
-    ],
-    "employee": [
-      {
-        "action": "read",
-        "type": "dog"
-      },
-      {
-        "action": "read",
-        "type": "cat"
-      },
-      {
-        "action": "update",
-        "type": "dog"
-      },
-      {
-        "action": "update",
-        "type": "cat"
-      }
-    ],
-    "billing": [
-      {
-        "action": "read",
-        "type": "finance"
-      },
-      {
-        "action": "update",
-        "type": "finance"
-      }
-    ],
-    "guest": [
-     {
-       "action": "read",
-       "type": "cat"
-     },
-     {
-       "action": "read",
-       "type": "finance"
-     }
-    ]
-  }
 }
