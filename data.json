@@ -3,7 +3,7 @@
         "arson": {
             "password": "arson123",
             "membership": true,
-            "purchase_history": true 
+            "purchase_history": ["item1", "item2", "item3"] 
         },
         "becker": {
             "password": "becker123",
@@ -13,12 +13,12 @@
         "carmel": {
             "password": "carmel123",
             "membership": false,
-            "purchase_history": true
+            "purchase_history": ["item1", "item5", "item9"]
         },
         "carmelson": {
             "password": "carmelson123",
             "membership": false,
-            "purchase_history": true
+            "purchase_history": ["item3", "item5", "item7"]
         },
         "daniel": {
             "password": "daniel123",
