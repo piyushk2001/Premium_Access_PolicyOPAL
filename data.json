@@ -13,7 +13,7 @@
         "carmel": {
             "password": "carmel123",
             "membership": false,
-            "purchase_history": ["item1", "item5", "item9"]
+            "purchase_history": ["item2", "item3", "item4"]
         },
         "carmelson": {
             "password": "carmelson123",
