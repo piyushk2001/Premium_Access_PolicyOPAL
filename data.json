@@ -8,7 +8,7 @@
         "becker": {
             "password": "becker123",
             "membership": true,
-            "purchase_history": false
+            "purchase_history": []
         },
         "carmel": {
             "password": "carmel123",
