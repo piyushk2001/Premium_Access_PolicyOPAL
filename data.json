@@ -23,7 +23,7 @@
         "daniel": {
             "password": "daniel123",
             "membership": false,
-            "purchase_history": false
+            "purchase_history": []
         }
     }
 }
